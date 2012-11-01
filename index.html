@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>
+		function initialize() {
+		var kcLatLng = new google.maps.LatLng(39.12,-94.60); 
+		var mapOptions = {
+		  zoom: 10,
+		  center: kcLatLng, 
+		  mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  disableDefaultUI: true,
+		  zoomControl: true,
+		  zoomControlOptions: {
+			  style: google.maps.ZoomControlStyle.SMALL,
+			  position: google.maps.ControlPosition.LEFT_CENTER
+		  },
+		  streetViewControl: true,
+		  streetViewControlOptions: {
+			  position: google.maps.ControlPosition.LEFT_CENTER
+		  },
+		  scaleControl: true
+	  	}
+		var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+	}
+	</script>
+	<style>
+		  html, body {
+		      height: 100%;
+		          margin: 0;
+			      padding: 0;
+			          font-family: sans-serif;
+				    }
+
+				      #map_canvas {
+				          height: 100%;
+					    }
+				    </style>
+				    <meta name="text:title" value="">
+				    <meta name="color:text_color" value="#333">
+				    <meta name="image:background_image" value="">
+				    <meta name="font:body_font" value="Menlo,monospace">
+				    <meta name="if:stretch_background" value="false">
+			    </head>			    
+	<body onload="initialize()">
+		<div id="map_canvas"></div>
+	</body>
+</html>
