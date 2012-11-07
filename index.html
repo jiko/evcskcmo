@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script>
-		function initialize() {
+	function initialize() {
 		var kcLatLng = new google.maps.LatLng(39.08,-94.80); 
 		var mapOptions = {
 		  zoom: 11,
@@ -23,26 +23,27 @@
 	  	}
 		var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 	}
-	</script>
+</script>-->
 	<style>
-		  html, body {
-		      height: 100%;
-		          margin: 0;
-			      padding: 0;
-			          font-family: sans-serif;
-				    }
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+	   	}
 
-				      #map_canvas {
-				          height: 100%;
-					    }
-				    </style>
-				    <meta name="text:title" value="">
-				    <meta name="color:text_color" value="#333">
-				    <meta name="image:background_image" value="">
-				    <meta name="font:body_font" value="Menlo,monospace">
-				    <meta name="if:stretch_background" value="false">
-			    </head>			    
-	<body onload="initialize()">
-		<div id="map_canvas"></div>
+		#map_canvas {
+			height: 100%;
+		}
+	</style>
+	<meta name="text:title" value="">
+	<meta name="color:text_color" value="#333">
+	<meta name="image:background_image" value="">
+	<meta name="font:body_font" value="Menlo,monospace">
+	<meta name="if:stretch_background" value="false">
+	</head>			    
+	<body> <!--onload="initialize()"-->
+		<!--<div id="map_canvas"></div>-->
+		<iframe width="640" height="960" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=203750129924833443756.0004cdb29e049fb37fed5&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=38.98897,-94.580826&amp;spn=0.209175,0.053215&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msid=203750129924833443756.0004cdb29e049fb37fed5&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=38.98897,-94.580826&amp;spn=0.209175,0.053215&amp;source=embed" style="color:#0000FF;text-align:left">Electric Vehicle Charging Stations in the Kansas City Metro</a> in a larger map</small>	
 	</body>
 </html>
