@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Electric Vehicle Charging Stations in the Kansas City Metro</name>
+  <description><![CDATA[Based on a list in the September/October 2012 issue of Greenability magazine:
+https://docs.google.com/document/d/18NMs1Y7lGObtX_nr2l6wjJ9oAubXK_GyUX9OdC4xXZE/edit
+and this map:
+https://na.chargepoint.com/index.php/charge_point]]></description>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Kauffman Center</name>
+    <description><![CDATA[<div dir="ltr">Performing Arts Center Garage, 17th St Entrance, North side<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (120V, 16A, NEMA 5-20R)<br>Reservations Disabled<br>$1.00 per hour<br>$1.00 minimum</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-94.587349,39.093555,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Union Station</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Garage<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-94.587273,39.084995,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Charge Point Charging Station</name>
+    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-94.554222,39.092934,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boulevard Brewing Company</name>
+    <description><![CDATA[<div dir="ltr">Charging Station located across from main entrance<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-94.596458,39.082188,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>KCP&amp;L / LIVING PROOF </name>
+    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R) Available<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-94.575081,39.041759,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>UMKC Admin Center</name>
+    <description><![CDATA[<div dir="ltr">In the UMKC Adminstrative Center Parking Lot at 51st and Oak<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-94.582703,39.034115,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>UMKC Cherry St. Garage</name>
+    <description><![CDATA[<div dir="ltr">Inside parking garage on right side as you enter from Oak St<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-94.582344,39.036190,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>UMKC Cherry St. Garage</name>
+    <description><![CDATA[<div dir="ltr">Inside Cherry St. Garage on right side as you enter from Oak<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-94.582039,39.035919,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-94.594803,38.991920,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-94.590096,39.057583,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Commerce Bank</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Lot<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-94.607437,38.884380,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Harley-Davidson Vehicle and Powertrain Operations</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Lot<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-94.662498,39.300400,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Northtowne Suzuki</name>
+    <description><![CDATA[<div dir="ltr">Dealership business hours</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-94.580902,39.180931,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Randy Reed Nissan</name>
+    <description><![CDATA[<div dir="ltr">3 public stations<br>Dealership business hours</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-94.666168,39.266933,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-94.548027,39.187469,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens</name>
+    <description><![CDATA[358 NE 69 Hwy, Claycomo, MO 64119<br><a href="https://maps.google.com/maps/place?ftid=0x87c0f8dc9546e213:0x2ddd20b1d5e3cefd&amp;q=Walgreens,+358+NE+69+Hwy,+Claycomo,+Clay,+Missouri+64119&amp;hl=en&amp;authuser=0&amp;t=h&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=CX2hUOiaBsjywQH5r4GICw&amp;sig2=n8TAs0L8Q2nGdDDmEsZ-sA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=39.201575,-94.496663&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-94.496666,39.201576,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-94.496666,39.201576,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens Store Liberty</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-94.442017,39.243725,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lee&#39;s Summit City Hall</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Garage at City Hall<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-94.375626,38.913734,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lee&#39;s Summit Nissan</name>
+    <description><![CDATA[<div dir="ltr">Dealership business hours</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-94.349274,38.901253,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens Store Raytown</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-94.472336,38.994762,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens Store Grandview</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-94.526184,38.887871,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Black &amp; Veatch</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Lot<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-94.656029,38.924229,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Park Place</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Garage<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-94.647720,38.918064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>City of Olathe Parking Garage</name>
+    <description><![CDATA[<div dir="ltr">Inside City of Olathe Parking Garage<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-94.818977,38.880836,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Johnson County Community College</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Carslen West Parking Garage, Lower Level<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-94.726463,38.924362,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Johnson County Emergency Communications Center</name>
+    <description><![CDATA[<div dir="ltr">Forensic Science &amp; Communications Building Staff &amp; Visitors<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-94.803146,38.915520,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Johnson County Area Agency</name>
+    <description><![CDATA[<div dir="ltr">Main parking lot in front of building<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-94.799355,38.915451,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Johnson County Youth and Family Services Center</name>
+    <description><![CDATA[<div dir="ltr">Located in the main parking lot<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-94.831566,38.887951,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens Store Olathe</name>
+    <description><![CDATA[24 hours daily]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-94.808685,38.883270,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>McCarthy Olathe Nissan</name>
+    <description><![CDATA[Two public stations]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-94.790253,38.888878,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Olathe Subaru</name>
+    <description><![CDATA[<div dir="ltr">Dealership business hours</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-94.794525,38.876987,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Roeland Park City Hall</name>
+    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R) Available<br>Port 2: (208/240V, 30A, J1772) Available<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-94.638695,39.036396,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rolling Hills Nissan</name>
+    <description><![CDATA[<div dir="ltr">Dealership business hours</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-94.801102,39.781044,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Heartland Regional Medical Center</name>
+    <description><![CDATA[<div dir="ltr">For Public Use, Located in the Parking Garage<br>Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-94.770462,39.774265,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Johnson County Central Resource Library</name>
+    <description><![CDATA[<div dir="ltr">In front of main entrance<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-94.699631,38.969856,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>KU Center for Design Research</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-95.271027,38.956772,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hy-Vee</name>
+    <description><![CDATA[<div dir="ltr">In front of the store.<br>Port 1: (208/240V, 30A, J1772)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-95.280479,38.944065,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Briggs Nissan Lawrence</name>
+    <description><![CDATA[<div dir="ltr">Dealership business hours</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-95.263016,38.930676,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hy-Vee</name>
+    <description><![CDATA[<div><font face="arial"><span style="font-size:14px">3900 W 24th Pl</span></font></div><font face="arial" size="2">Lawrence, KS 66047</font><br>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-95.289345,38.941959,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens Store Kansas City</name>
+    <description><![CDATA[<div dir="ltr">24 hours daily</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-94.508537,38.953259,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walgreens</name>
+    <description><![CDATA[<div dir="ltr"> 7739 State Ave, Kansas City, KS 66112<br><br>24 hours daily</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-94.760368,39.116039,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
