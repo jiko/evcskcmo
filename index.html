@@ -16,10 +16,17 @@
         });
         GMaps.geolocate({
             success: function(position) {
-                map.setCenter(
-                    position.coords.latitude, 
-                    position.coords.longitude
-                );
+                var lat = position.coords.latitude;
+                var lng = position.coords.longitude;
+                map.setCenter(lat, lng);
+                map.addMarker({
+                    lat: lat,
+                    lng: lng,
+                    title: 'You Are Here',
+                    click: function(e) {
+                        alert('You clicked on yourself.');
+                    }
+                });
                 map.zoomIn(4);
             },
             error: function(error) {
