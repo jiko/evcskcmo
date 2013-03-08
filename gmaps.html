@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 	<head>
-	<script src="gmaps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+	<script src="https://raw.github.com/HPNeo/gmaps/master/gmaps.js"></script>
 	<script>
     function initialize() {
 		    var map = new GMaps({
@@ -11,7 +12,7 @@
           lng: -94.80
         });
         map.loadFromKML({
-          url: 'EVCSKCMO.kml'
+          url: 'https://raw.github.com/jiko/evcskmco/gh-pages/EVCSKCMO.kml'
         });
     }
   </script>
