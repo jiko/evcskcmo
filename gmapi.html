@@ -1,37 +1,31 @@
 <!doctype html>
 <html lang="en">
 	<head>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
-	<script src="https://raw.github.com/HPNeo/gmaps/master/gmaps.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script>
+    
     function initialize() {
-		    var map = new GMaps({
-          div: '#map_canvas',
-          zoom: 12,
-          lat: 39.08,
-          lng: -94.80
-        });
-        map.loadFromKML({
-          url: 'https://raw.github.com/jiko/evcskmco/gh-pages/EVCSKCMO.kml'
-        });
-        GMaps.geolocate({
-            success: function(position) {
-                map.setCenter(
-                    position.coords.latitude, 
-                    position.coords.longitude
-                );
-            },
-            error: function(error) {
-                alert('Geolocation failed: '+error.message);
-            },
-            not_supported: function() {
-                alert("Your browser does not support geolocation");
-            },
-            always: function() {
-                // alert("Done!");
-            }
-        });
-    }
+		var kcLatLng = new google.maps.LatLng(39.08,-94.80); 
+		var mapOptions = {
+		  zoom: 11,
+		  center: kcLatLng, 
+		  mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  disableDefaultUI: true,
+		  zoomControl: true,
+		  zoomControlOptions: {
+			  style: google.maps.ZoomControlStyle.SMALL,
+			  position: google.maps.ControlPosition.LEFT_CENTER
+		  },
+		  streetViewControl: true,
+		  streetViewControlOptions: {
+			  position: google.maps.ControlPosition.LEFT_CENTER
+		  },
+		  scaleControl: true
+	  	}
+		var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+    var evcsLayer = new google.maps.KmlLayer('https://raw.github.com/jiko/evcskmco/gh-pages/EVCSKCMO.kml');
+    evcsLayer.setMap(map);
+	}
   </script>
 	<style>
 		html, body {
