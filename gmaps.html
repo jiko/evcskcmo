@@ -14,6 +14,23 @@
         map.loadFromKML({
           url: 'https://raw.github.com/jiko/evcskmco/gh-pages/EVCSKCMO.kml'
         });
+        GMaps.geolocate({
+            success: function(position) {
+                map.setCenter(
+                    position.coords.latitude, 
+                    position.coords.longitude
+                );
+            },
+            error: function(error) {
+                alert('Geolocation failed: '+error.message);
+            },
+            not_supported: function() {
+                alert("Your browser does not support geolocation");
+            },
+            always: function() {
+                // alert("Done!");
+            }
+        });
     }
   </script>
 	<style>
