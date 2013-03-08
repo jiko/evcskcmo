@@ -334,7 +334,7 @@ https://na.chargepoint.com/index.php/charge_point]]></description>
   </Placemark>
   <Placemark>
     <name>KCP&amp;L / LIVING PROOF </name>
-    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R) Available<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
+    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R)<br>Reservations Disabled<br>Station Price: Free</div>]]></description>
     <styleUrl>#style39</styleUrl>
     <Point>
       <coordinates>-94.575081,39.041759,0.000000</coordinates>
@@ -558,7 +558,7 @@ https://na.chargepoint.com/index.php/charge_point]]></description>
   </Placemark>
   <Placemark>
     <name>Roeland Park City Hall</name>
-    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R) Available<br>Port 2: (208/240V, 30A, J1772) Available<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
+    <description><![CDATA[<div dir="ltr">Port 1: (120V, 16A, NEMA 5-20R)<br>Port 2: (208/240V, 30A, J1772)<br>Reservations Disabled<br>Station Price: Free </div>]]></description>
     <styleUrl>#style5</styleUrl>
     <Point>
       <coordinates>-94.638695,39.036396,0.000000</coordinates>
