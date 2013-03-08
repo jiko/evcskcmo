@@ -1,31 +1,19 @@
 <!doctype html>
 <html lang="en">
 	<head>
-	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="gmaps.js"></script>
 	<script>
-    
     function initialize() {
-		var kcLatLng = new google.maps.LatLng(39.08,-94.80); 
-		var mapOptions = {
-		  zoom: 11,
-		  center: kcLatLng, 
-		  mapTypeId: google.maps.MapTypeId.ROADMAP,
-		  disableDefaultUI: true,
-		  zoomControl: true,
-		  zoomControlOptions: {
-			  style: google.maps.ZoomControlStyle.SMALL,
-			  position: google.maps.ControlPosition.LEFT_CENTER
-		  },
-		  streetViewControl: true,
-		  streetViewControlOptions: {
-			  position: google.maps.ControlPosition.LEFT_CENTER
-		  },
-		  scaleControl: true
-	  	}
-		var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-    var evcsLayer = new google.maps.KmlLayer('');
-    evcsLayer.setMap(map);
-	}
+		    var map = new GMaps({
+          div: '#map_canvas',
+          zoom: 12,
+          lat: 39.08,
+          lng: -94.80
+        });
+        map.loadFromKML({
+          url: 'EVCSKCMO.kml'
+        });
+    }
   </script>
 	<style>
 		html, body {
