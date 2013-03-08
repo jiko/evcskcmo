@@ -1,4 +1,4 @@
 evcskmco
 ========
 
-Electric Vehicle Charging Stations in Kansas City, Missouri
+Electric Vehicle Charging Stations in the Kansas City Metro
