@@ -3,7 +3,7 @@
 	<head>
 	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script>
-    
+    var map;
     function initialize() {
 		var kcLatLng = new google.maps.LatLng(39.08,-94.80); 
 		var mapOptions = {
@@ -22,8 +22,8 @@
 		  },
 		  scaleControl: true
 	  	}
-		var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-    var evcsLayer = new google.maps.KmlLayer('https://raw.github.com/jiko/evcskmco/gh-pages/EVCSKCMO.kml');
+		map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+    var evcsLayer = new google.maps.KmlLayer('https://raw.github.com/jiko/evcskcmo/gh-pages/EVCSKCMO.kml');
     evcsLayer.setMap(map);
 	}
   </script>

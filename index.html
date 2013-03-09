@@ -6,8 +6,9 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
 	<script src="gmaps.min.js"></script>
 	<script>
+    var map;
     function initialize() {
-		    var map = new GMaps({
+  	    map = new GMaps({
           div: '#map_canvas',
           zoom: 14,
           lat: 39.08,
@@ -55,11 +56,6 @@
 			height: 100%;
 		}
 	</style>
-	<meta name="text:title" value="">
-	<meta name="color:text_color" value="#333">
-	<meta name="image:background_image" value="">
-	<meta name="font:body_font" value="Menlo,monospace">
-	<meta name="if:stretch_background" value="false">
 	</head>			    
   <body onload="initialize()">
 		<div id="map_canvas"></div>
