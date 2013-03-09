@@ -1,6 +1,5 @@
 TODO
 ====
-- Pull in data from KML file. 
 - Map route from current location to nearest charging station.
 - Use device-aware map-sizing.
 
