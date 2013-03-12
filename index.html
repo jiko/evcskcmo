@@ -19,37 +19,37 @@
         });
         map.loadFromKML({
           url: 'https://raw.github.com/jiko/evcskcmo/gh-pages/EVCSKCMO.kml',
-//          preserveViewport: true,
+          //preserveViewport: true,
           events: {
-            status_changed: function() { map.setZoom(14); }
-          }
-        });
-        GMaps.geolocate({
-            success: function(position) {
-                var lat = position.coords.latitude;
-                var lng = position.coords.longitude;
-                map.setCenter(lat, lng);
-                map.addMarker({
-                    lat: lat,
-                    lng: lng,
-                    title: 'You Are Here',
-                    click: function(e) {
-                        alert('You clicked on yourself.');
-                    }
-                });
-                map.setZoom(14);
-            },
-            error: function(error) {
-                alert('Geolocation failed: '+error.message);
-//                map.setZoom(12);
-            },
-            not_supported: function() {
-                alert("Your browser does not support geolocation");
-                map.setZoom(12);
-            },
-            always: function() {
-                console.log("Geolocation done!");
+            status_changed: function() { 
+              GMaps.geolocate({
+                success: function(position) {
+                    var lat = position.coords.latitude;
+                    var lng = position.coords.longitude;
+                    map.setCenter(lat, lng);
+                    map.addMarker({
+                        lat: lat,
+                        lng: lng,
+                        title: 'You Are Here',
+                        click: function(e) {
+                            alert('You clicked on yourself.');
+                        }
+                    });
+                    map.setZoom(14);
+                },
+                error: function(error) {
+                    alert('Geolocation failed: '+error.message);
+                },
+                not_supported: function() {
+                    alert("Your browser does not support geolocation");
+                    map.setZoom(12);
+                },
+                always: function() {
+                    console.log("Geolocation done!");
+                }
+              });  
             }
+          }
         });
     }
   </script>
