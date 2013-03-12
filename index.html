@@ -2,6 +2,9 @@
 <html lang="en">
 	<head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <title>Electric Vehicle Charging Stations in Kansas City, MO</title>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
 	<script src="gmaps.min.js"></script>
@@ -17,6 +20,9 @@
         map.loadFromKML({
           url: 'https://raw.github.com/jiko/evcskcmo/gh-pages/EVCSKCMO.kml',
 //          preserveViewport: true,
+          events: {
+            status_changed: function() { map.setZoom(14); }
+          }
         });
         GMaps.geolocate({
             success: function(position) {
