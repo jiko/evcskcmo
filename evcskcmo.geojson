@@ -1,0 +1,593 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.587349,
+                    39.093555,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kauffman Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.587273,
+                    39.084995,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Union Station"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.554222,
+                    39.092934,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Charge Point Charging Station"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.596458,
+                    39.082188,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Boulevard Brewing Company"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.575081,
+                    39.041759,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "KCP&L / LIVING PROOF "
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.582703,
+                    39.034115,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UMKC Admin Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.582344,
+                    39.03619,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UMKC Cherry St. Garage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.582039,
+                    39.035919,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UMKC Cherry St. Garage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.594803,
+                    38.99192,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.590096,
+                    39.057583,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.607437,
+                    38.88438,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Commerce Bank"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.662498,
+                    39.3004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harley-Davidson Vehicle and Powertrain Operations"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.580902,
+                    39.180931,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Northtowne Suzuki"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.666168,
+                    39.266933,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Randy Reed Nissan"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.548027,
+                    39.187469,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.496666,
+                    39.201576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.496666,
+                    39.201576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.442017,
+                    39.243725,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens Store Liberty"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.375626,
+                    38.913734,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lee's Summit City Hall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.349274,
+                    38.901253,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lee's Summit Nissan"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.472336,
+                    38.994762,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens Store Raytown"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.526184,
+                    38.887871,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens Store Grandview"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.656029,
+                    38.924229,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Black & Veatch"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.64772,
+                    38.918064,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Park Place"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.818977,
+                    38.880836,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "City of Olathe Parking Garage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.726463,
+                    38.924362,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Johnson County Community College"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.803146,
+                    38.91552,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Johnson County Emergency Communications Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.799355,
+                    38.915451,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Johnson County Area Agency"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.831566,
+                    38.887951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Johnson County Youth and Family Services Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.808685,
+                    38.88327,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens Store Olathe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.790253,
+                    38.888878,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "McCarthy Olathe Nissan"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.794525,
+                    38.876987,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Olathe Subaru"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.638695,
+                    39.036396,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Roeland Park City Hall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.801102,
+                    39.781044,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rolling Hills Nissan"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.770462,
+                    39.774265,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heartland Regional Medical Center"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.699631,
+                    38.969856,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Johnson County Central Resource Library"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.271027,
+                    38.956772,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "KU Center for Design Research"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.280479,
+                    38.944065,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hy-Vee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.263016,
+                    38.930676,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Briggs Nissan Lawrence"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.289345,
+                    38.941959,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hy-Vee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.508537,
+                    38.953259,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens Store Kansas City"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.760368,
+                    39.116039,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walgreens"
+            }
+        }
+    ]
+}
