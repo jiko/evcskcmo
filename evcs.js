@@ -9,6 +9,7 @@ function initialize() {
     map.loadFromKML({
       url: 'https://raw.github.com/jiko/evcskcmo/gh-pages/EVCSKCMO.kml',
       //preserveViewport: true,
+      /*
       events: {
         status_changed: function() { 
           GMaps.geolocate({
@@ -39,6 +40,7 @@ function initialize() {
           });  
         }
       }
+      */
     });
 }
 
